@@ -1,0 +1,180 @@
+/* body {
+  background-image: url('../img/pexels-emiliano-arano-1298688.jpg');
+  background-size:cover;
+} */
+.btn-warning {
+  background-color: rgb(233,110,75);
+  color: #fff;
+  border-color: rgb(233,110,75);
+}
+
+.btn-warning:hover {
+  background-color: rgba(233, 110, 75, 0.7);
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: rgb(131, 131, 131);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(131, 131, 131, 0.7);
+}
+
+.btn-primary,
+.btn-secondary {
+  margin: 0 0 5px 5px;
+  padding: 7px 25px;
+  transition: 300ms ease-in-out;
+}
+
+.btn-outline-info {
+  border-color: rgb(40, 171, 185);
+  color: rgb(55, 58, 64);
+  font-weight: 500;
+  margin: 0 15px;
+  padding: 7px 25px;
+  background-color: rgba(244, 244, 242, 0.9);
+  transition: 300ms ease-in-out;
+}
+
+.btn-outline-info:hover {
+  background-color: rgb(40, 171, 185);
+  border-color: rgba(61, 126, 166, 0.6);
+}
+
+.card {
+  display: block;
+  margin: 15px auto;
+}
+
+.card-header,
+.card-body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.city-weather {
+  padding: 30px 0;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+
+.city-weather h1 {
+  display: inline;
+  font-size: 80px;
+  vertical-align: middle;
+}
+
+.current-city {
+  color: rgb(131, 131, 131);
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1;
+  display: block;
+  margin: 10px auto;
+}
+
+.date-time,
+.weather_description {
+  color: rgb(131, 131, 131);
+  margin-bottom: 0;
+  display: block;
+}
+
+.date-time,
+.weather_description::first-letter{
+  text-transform: capitalize;
+}
+
+.day-name {
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+#day-weather:hover {
+  background-color: rgba(247, 245, 246, 0.3);
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 10px;
+}
+
+.form-control {
+  display: inline;
+  width: 60%;
+}
+
+.main-weather{
+  width: 120px;
+}
+
+.name-footer {
+  font-size: 12px;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 0;
+  color: rgb(36,41,46);
+  font-weight: 600;
+}
+
+.name-footer a {
+  color: rgb(222, 124, 0);
+  font-weight: bolder;
+}
+
+.place-hour {
+  text-align: center;
+  width: auto;
+  display: block;
+  margin: 0 0 0 15px;
+}
+
+.temperature-type {
+  vertical-align: top;
+}
+
+.temperature-type .active {
+  color: #24292e;
+  cursor: default;
+}
+
+.temperature-type .active:hover{
+  color: #24292e;
+  text-decoration: none;
+}
+
+.weather-details {
+  color: rgb(131, 131, 131);
+  margin-top: 15px;
+}
+
+.weather-search {
+  display: inline;
+}
+
+#card_border {
+  box-shadow: 4px 4px 9px #aaaaaa;
+}
+
+#week-temperature {
+  font-size: 13px;
+}
+
+#week-weather {
+  padding: 10px 0px;
+}
+
+#week-weather p {
+  color: rgb(137, 139, 138);
+}
+
+#week-weather i {
+  color: rgb(163, 216, 244);
+  font-size: 70px;
+  margin: 10px 0;
+} 
+
+#week-weather img{
+  width: 85px;
+}
