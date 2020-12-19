@@ -158,7 +158,7 @@ function showDataCoords(response){
     
     let weatherMain = response.data.list[0].weather[0].main;
     console.log(weatherMain);
-    backgroundImage(weatherMain);
+    backgroundImage(weatherMain, precipitations);
 }
 
 function showForecastCoords(response){
@@ -213,9 +213,6 @@ function backgroundImage (weather, rain){
         }
     }  
 }
-
-
-
 
 let findCity = document.querySelector("#search-city");
 let currentButton = document.querySelector("#current-info");
